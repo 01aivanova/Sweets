@@ -2,7 +2,7 @@ package org.sweets;
 
 public class Candy implements Comparable<Candy> {
 
-    public int weight;
+    private int weight;
     private String name;
     private String type;
 

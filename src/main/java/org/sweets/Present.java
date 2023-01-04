@@ -1,13 +1,20 @@
 package org.sweets;
 
-public class Present {
+import java.util.Arrays;
 
+public class Present {
+    private int price;
     private String name;
     private Candy[] candies;
 
-    public Present(String name, Candy[] candies) {
+    public Present(int price, String name, Candy[] candies) {
+        this.price = price;
         this.name = name;
         this.candies = candies;
+    }
+
+    public int getPrice() {
+        return price;
     }
 
     public Candy[] getCandies() {
@@ -55,6 +62,11 @@ public class Present {
         }
         return sum;
     }
+    @Override
+    public String toString(){
+        return name+"price is "+price+" USD "+ "\n"+ Arrays.toString(candies)+"\n";
+    }
 }
+
 
 
