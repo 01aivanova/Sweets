@@ -1,8 +1,8 @@
 package org.sweets;
 
-public class Candy {
+public class Candy implements Comparable<Candy> {
 
-    private int weight;
+    public int weight;
     private String name;
     private String type;
 
@@ -29,4 +29,17 @@ public class Candy {
         return "Name: " + name + "," + " Type: " + type + "," + " Weight: " + weight + " gram \n";
     }
 
+
+    @Override
+    public int compareTo(Candy anotherCandy) {
+        if (this.weight == anotherCandy.weight) {
+            return 0;
+        } else if (this.weight < anotherCandy.weight) {
+            return -1;
+        } else {
+            return 1;
+        }
+    }
 }
+
+

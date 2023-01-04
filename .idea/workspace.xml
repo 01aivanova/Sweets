@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3954a8c1-27e5-4a15-aefe-b5cb00a095e0" name="Changes" comment="Devided methods, added array for sweets">
+    <list default="true" id="3954a8c1-27e5-4a15-aefe-b5cb00a095e0" name="Changes" comment="Added ArrayList method for Candy class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sweets/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sweets/Candy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sweets/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sweets/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sweets/Present.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sweets/Present.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anna.ivanova/IdeaProjects/Sweets&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/anna.ivanova/IdeaProjects/Sweets",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sweets.Main" />
@@ -86,11 +88,20 @@
       <option name="project" value="LOCAL" />
       <updated>1672731521058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added ArrayList for candies">
+      <created>1672742825634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672742825634</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Devided methods, added array for sweets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Devided methods, added array for sweets" />
+    <MESSAGE value="Added ArrayList for candies" />
+    <MESSAGE value="Added ArrayList method for Candy class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ArrayList method for Candy class" />
   </component>
 </project>
