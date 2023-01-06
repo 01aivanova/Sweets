@@ -1,5 +1,6 @@
 package org.sweets;
 
+import org.sweets.Yummies.Candy;
 import java.util.Arrays;
 
 public class Present {
@@ -62,10 +63,13 @@ public class Present {
         }
         return sum;
     }
+
     @Override
     public String toString(){
-        return name+"price is "+price+" USD "+ "\n"+ Arrays.toString(candies)+"\n";
+        return name+" price is "+price+" USD "+ "\n"+ Arrays.toString(candies)+"\n";
     }
+
+
 }
 
 
